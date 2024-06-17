@@ -3,9 +3,9 @@ import { IoMdChatboxes } from "react-icons/io";
 
 import './NewChat.css';
 
-const NewChat = () => {
+const NewChat = ({onClick, user}) => {
   return (
-    <div className='newChat'>
+    <div className='newChat' onClick={onClick}>
         <IoMdChatboxes />
         <p>
             NewChat

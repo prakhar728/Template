@@ -3,6 +3,7 @@
     width: 60%;
     height: 30%;
 
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,4 +17,9 @@
     padding: 2% 2%;
     height: 30%;
     background-color: rgba(94, 92, 92, 0.716);
+}
+
+.send-icon {
+    position: absolute;
+    right: 10%;
 }
